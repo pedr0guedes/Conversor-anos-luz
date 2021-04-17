@@ -1,0 +1,87 @@
+body {
+    background-image: url("/ImersãoDev/1/Interestelar.jpg");
+    justify-content: center;  
+    margin-top: 75px;
+    
+}
+.page-subtitle{
+  font-size: 40px;
+  color:white;
+  text-align: center;
+  margin-top: 150px;
+}
+.page-title { 
+    font-size: 80px;
+    color: white;
+    font-family:monospace;
+    background-color: rgba(79, 80, 82, 0.945);
+    opacity: 0.7;  
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
+  .box1{
+    font-size: 25px;
+    color: white;
+    font-family:monospace;
+    display: inline;
+   
+    
+    
+    }
+
+ 
+    .box2{
+      font-size: 25px;
+      color: white;
+      font-family: monospace;
+      display: inline;
+      padding-left: 760px;
+      }
+
+    .box input[type = "text"], .box input[type = "password"]{
+        border: 0;
+        background-color:white;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #707070;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: black;
+        border-radius: 10px;
+        transition: 0.25s;
+      }
+      
+      .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+        width: 280px;
+        border-color: #707070;
+      }
+      
+      .box input[type="button"]{
+        border:0;
+        background-color: black;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #707070;
+        padding: 14px 40px;
+        width: 150px;
+        outline: none;
+        color: white;
+        border-radius: 10px;
+        transition: 0.15s;
+        cursor: pointer;
+      }
+      
+      .box input[type="button"]:hover{
+        background: #494949;
+      }   
+      
+
+#unidade {
+  font-size: 17px;
+}
